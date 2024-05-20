@@ -8,23 +8,27 @@ body {
     font-family: "Krona One", sans-serif;
     color: white;
     background-color: black;
+    overflow: auto;
 }
-
 
 .logo {
     height: 120px;
-    
 }
 
-
-.navBar { 
+nav { 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     
+    align-items: center;    
 }
 
-.estilo_botoes {
+.nav_list {
+    display: flex;
+    position: absolute;
+    right: 100px;
+}
+
+
+.estilo_botao {
     display: flex;
     background-color: #5709FF;
     text-decoration: none;
@@ -34,18 +38,30 @@ body {
     height: 50px;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
-    
-    
+    padding: 5px 10px; 
+    margin-left: 8px;
+    cursor: pointer;   
 }
 
-.estilo_botoes:hover {
-    background-color: #5709ffc0;
+.estilo_botao:hover {
+    display: flex;
+    background-color: #5709ffbd;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px; 
+    margin-left: 8px;  
+    cursor: pointer;  
 }
 
 .conteudo_main {
     display: flex;
     justify-content: center;
+    padding-bottom:35%;
 }
 
 .conteudo_principal {
@@ -57,7 +73,6 @@ body {
     width: 752px;
     height: 750px;
     background-color: rgb(0, 0, 0);
-   
 }
 
 .titulo {
@@ -66,7 +81,6 @@ body {
     margin-bottom: 5px;
     font-size: 36px;
     font-family: "Krona One", sans-serif;
-   
 }
 
 .subtitulo {
@@ -93,15 +107,20 @@ body {
 }
 
 .tabela1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
     border: 2px solid #5709FF;
     margin-right: 5px;
     width: 150px;
     height: 200px;
-    
 }
 
 .tabela2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
     border: 2px solid #5709FF;
     margin-right: 5px;
@@ -111,11 +130,36 @@ body {
 
 
 .tabela3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
     border: 2px solid #5709FF;
     margin-left: 0px;
     width: 150px;
     height: 200px;
+}
+
+.tabelas p {
+    font-weight: 700;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    background-color: #5709FF;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.rodape_link {
+    text-decoration: none;
+    color: white;
+    margin: 10px 100px;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif; 
 }
 
 
