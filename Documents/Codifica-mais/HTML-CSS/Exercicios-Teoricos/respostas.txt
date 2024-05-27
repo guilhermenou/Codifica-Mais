@@ -1,0 +1,26 @@
+1. O que são tags semânticas? Por que devemos utilizá-las? Dê exemplos de tags semânticas.
+R: São tags utilizadas de maneira que faça sentido por exemplo quando vamos colocar um título em algum elemento de página e não usamos o <h1>  e no lugar usamos o <p>, em teoria vai aparecer na página escrito do mesmo jeito porém quando outra pessoa for olhar o código ela provavelmente vai ficar sem entender pois não faz sentido ser usado assim.
+
+2. O que são elementos inline? Dê exemplos.
+R: São elementos que ficam em linha, um elemento na frente do outro. Por  exemplo a tag <span> que usei neste código que adicionei abaixo. No EXEMPLO 1 temos um elemento que se adiciona a direita do elemento anterior..
+ 
+3. O que são elementos block level? Dê exemplos
+R: São elementos que criam um bloco no código então acaba ficando um abaixo do outro, como mostro no EXEMPLO 2.
+
+4. Descreva a utilização do atributo ‘alt’ em imagens no HTML e por que é importante utilizar esse atributo.
+R: O atributo Alt significa “Alternativa” ou seja, se a imagem não abrir por alguma questão de compatibilidade ou algo do tipo, irá aparecer na tela do usuário algum texto que o programador digitar neste campo, é de extrema importância ter esse campo pois assim o usuário consegue saber o que deveria ter ali no campo onde não apareceu a imagem.
+
+5. Explique o conceito de herança em CSS. Dê exemplo utilizando a propriedade ‘color’.
+R: A herança ocorre quando definimos no CSS o estilo de uma tag e colocamos ela para mais de uma área no nosso código.
+ 
+6. Explique o que é BEM (Block Element Modifier)
+R: É o termo (padrão) adotado para boas práticas no código CSS para que tenha um melhor entendimento na leitura do mesmo.
+
+7. Explique e dê exemplos a diferença entre medidas absolutas e relativas
+R: A medida relativa é aquela usada com %,  geralmente é usado para ter um tamanho responsivo e que se adapta conforme a tela. Já a medida absoluta é definida por px, cm, etc...
+Ou seja ela tem um tamanho definido e que não vai mudar.
+
+8. Explique o que é a unidade de medida Vw (viewport width) e Vh (viewport height) e a diferença entre elas.
+R: Viewport width:  unidade de medida que é relativa a largura de tela do usuário
+Viewport Height unidade de medida responsável pela altura e que é relativa ao tamanho      de tela do usuário.
+A diferença basicamente é que uma cuida da largura e a outra da altura.
