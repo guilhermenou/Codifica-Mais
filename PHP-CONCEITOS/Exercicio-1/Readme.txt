@@ -1,0 +1,1 @@
+pastas criadas para melhor entendimento na hora de visualizar os exercicíos.
