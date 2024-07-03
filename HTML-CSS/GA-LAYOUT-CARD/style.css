@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartao-produto {
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 45rem;
+   height: 22rem;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.13);
+   border-radius: 0.7rem;
+}
+
+.imagem img{
+    border-radius: 0.4px;
+}
+
+.especificacoes {
+    display: flex;
+    width: 50rem;
+    height: 14rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.especificacoes button:hover {
+    border-radius: 0.4rem;
+    border-color: transparent;
+    background-color: rgb(19, 17, 17);
+    color: white; 
+}
+
+.destaque button{
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: 480;
+}
+
+.linha2 {
+    display: flex;
+    gap: 0.8rem;
+    padding: 15px;
+}
+
+.linha2 button {
+    padding: 0.7rem;
+    font-weight: 650;
+    border-radius: 0.4rem;
+    border: transparent;
+}
+
+.linha3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.linha3 button {
+    display: flex;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: 1px solid #c2c2c2;
+    font-weight: 700;
+}
+
+.favoritar button {
+    color: #df253e;
+}
+
+.favoritar button:hover {
+    color: #df253e;
+}
+
+.adicionar button {
+    border-radius: 0.4rem;
+}
+
+.adicionar-comprar {
+   display: flex;
+   gap: 0.4rem;
+}
+
+.linha4 {
+    flex: 1;
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    font: bold;
+}
