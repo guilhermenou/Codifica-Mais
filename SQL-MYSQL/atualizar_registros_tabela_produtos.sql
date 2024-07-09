@@ -1,4 +1,5 @@
-UPDATE registros
+USE produtos
+UPDATE produtos
 SET preco = 6.10, peso = 3.0, updated_at = NOW()
 WHERE sku = 'A1'
 
