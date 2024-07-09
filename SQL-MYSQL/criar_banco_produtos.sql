@@ -12,7 +12,7 @@ peso decimal(6,2),
 quantidade_estoque bigint(200),
 fabricante varchar(40),
 fornecedor varchar(30),
-deleted_at default null,
+deleted_at timestamp default null,
 created_at timestamp(10),
 updated_at timestamp(10),
 );
