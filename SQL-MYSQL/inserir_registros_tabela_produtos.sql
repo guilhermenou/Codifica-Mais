@@ -1,4 +1,5 @@
-INSERT INTO registros 
+USE produtos
+INSERT INTO produtos 
     (nome, sku, descricao, categoria, preco, unidade_medida, peso, quantidade_estoque, fabricante, fornecedor, created_at) 
 VALUES 
     ("Arroz", "A1", "Arroz Integral", "alimentos", 4.50, "kg", 2.0, 150, "Sepé", "MegaG",NOW()),
